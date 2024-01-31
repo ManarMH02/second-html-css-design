@@ -294,6 +294,9 @@ header .container nav .search i {
     line-height: 2;
 }
 @media (max-width: 768px){
+    .services .services-container {
+        grid-template-columns: 1fr;
+    }
     .services .services-container .content {
         flex-direction: column;
         justify-content: center;
